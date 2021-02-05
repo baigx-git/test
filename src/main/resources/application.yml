@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: test
+  profiles:
+    active: dev
+
+logging:
+  level:
+    cn.jay.repository: info
