@@ -14,21 +14,29 @@ import java.time.LocalDateTime;
 @ApiModel(value = "用户")
 public class User {
 
-  @ApiModelProperty(value = "id")
-  private long id;
-  @ApiModelProperty(value = "姓名")
-  private String name;
-  @ApiModelProperty(value = "性别")
-  private String sex;
-  @ApiModelProperty(value = "版本")
-  private long version;
-  @ApiModelProperty(value = "操作时间")
-  @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-  private LocalDateTime updateTime;
-  @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-  @ApiModelProperty(value = "创建时间")
-  private LocalDateTime createTime;
+    @ApiModelProperty(value = "id")
+    private long id;
+
+    @ApiModelProperty(value = "姓名")
+    private String name;
+
+    @ApiModelProperty(value = "密码")
+    private String password;
+
+    @ApiModelProperty(value = "性别")
+    private String sex;
+
+    @ApiModelProperty(value = "版本")
+    private long version;
+
+    @ApiModelProperty(value = "操作时间")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime updateTime;
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @ApiModelProperty(value = "创建时间")
+    private LocalDateTime createTime;
 
 }
