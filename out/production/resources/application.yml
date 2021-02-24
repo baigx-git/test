@@ -17,8 +17,6 @@ mybatis-plus:
     #日记sql
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: false
-    # 将一级缓存的级别设为 statement 级别的，这样每次查询结束都会清掉一级缓存，在分布式系统中防止同段代码并发下读取出脏数据，或在
-    # for循环等中调用相同参数方法或者诸如获取Oracle sequence no无参方法中为了保证结果不同时，需要修改默认的一级缓存策略
     local-cache-scope: statement
   global-config:
     db-config:
@@ -27,5 +25,5 @@ mybatis-plus:
       select-strategy: ignored
       table-underline: false
       update-strategy: not_null
-  mapper-locations: classpath*:/com/luxondata/test/dao/**/*.xml
+  mapper-locations: classpath*:/mapper/**/*.xml
   type-aliases-package: com.luxondata.test.entity

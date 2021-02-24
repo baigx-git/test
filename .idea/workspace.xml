@@ -2,10 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c1cad3-e01b-4823-b5c8-5f60d577b757" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/Reslut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/common/constant/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/exception/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/jwt/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/jwt/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/response/ResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/config/PasswordEncoderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/util/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/util/SecurityContextHolderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/CUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/test.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/luxondata/test/TestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/luxondata/test/controller/testController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/luxondata/test/controller/testController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/luxondata/test/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/luxondata/test/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/luxondata/test/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/luxondata/test/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/luxondata/test/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxondata/test/controller/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/controller/testController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/luxondata/test/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxondata/test/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxondata/test/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/Reslut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -69,24 +102,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/controller/testController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/Reslut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="263">
+              <caret line="93" column="12" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,25 +114,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/common/enums/ErrorEnum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/TestApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="190">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/entity/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/CUserDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="532">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,12 +138,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/component/exception/GlobalExceptionHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/util/Builder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="285">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="21" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,6 +165,9 @@
     <findStrings>
       <find>RollingFileError</find>
       <find>Console</find>
+      <find>AuthenticationManager</find>
+      <find>ObjectMapper</find>
+      <find>Builder</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,19 +183,32 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/da5a4a6b-5c1a-490a-969f-1e049e48df63/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/685f2786-28ce-4933-bba7-faf3cae25e32/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2-spring.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/controller/testController.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/TestApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/Reslut.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/common/enums/ErrorEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/response/ResponseBodyAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/exception/TestException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/common/constant/constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/config/PasswordEncoderConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/jwt/JwtTokenFilter.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/jwt/JwtTokenUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/CUserDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/response/ResponseBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/util/SecurityContextHolderUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/controller/testController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxondata/test/util/Builder.java" />
       </list>
     </option>
   </component>
@@ -194,71 +228,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,13 +242,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/luxondata/test/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/luxondata/test/component/jwt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -289,6 +260,7 @@
       <recent name="com.luxondata" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\test\src\main\java\com\luxondata\test\component\jwt" />
       <recent name="D:\workspace\test\src\main\resources" />
     </key>
   </component>
@@ -349,7 +321,10 @@
       <option name="presentableId" value="Default" />
       <updated>1612507141897</updated>
       <workItem from="1612507145750" duration="14652000" />
-      <workItem from="1612673613734" duration="16713000" />
+      <workItem from="1612673613734" duration="27289000" />
+      <workItem from="1613009778249" duration="1883000" />
+      <workItem from="1613783835845" duration="22089000" />
+      <workItem from="1614043206331" duration="4002000" />
     </task>
     <task id="LOCAL-00001" summary="增加 swagger">
       <created>1612689501641</created>
@@ -358,18 +333,24 @@
       <option name="project" value="LOCAL" />
       <updated>1612689501641</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加 swagger">
+      <created>1612692163996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612692163996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31365000" />
+    <option name="totallyTimeSpent" value="69915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.26677445" />
+      <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.2700081" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
@@ -378,23 +359,22 @@
       <window_info id="Image Layers" order="7" />
       <window_info id="Azure Explorer" order="8" />
       <window_info id="Web" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.45115453" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39539006" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995958" visible="true" weight="0.20959148" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44582593" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987874" weight="0.35523978" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.74245113" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4995958" weight="0.42451155" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5004042" side_tool="true" weight="0.26642984" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5004042" side_tool="true" visible="true" weight="0.25932506" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="14" />
-      <window_info anchor="bottom" id="TemplateSupport.ToolWindow" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="TemplateSupport.ToolWindow" order="15" sideWeight="0.5012126" side_tool="true" weight="0.4689165" />
       <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
       <window_info anchor="bottom" id="Database Changes" order="18" show_stripe_button="false" />
@@ -402,6 +382,7 @@
       <window_info anchor="bottom" id="JRebel Executor" order="20" weight="0.39539006" />
       <window_info anchor="bottom" id="JRebel Console" order="21" side_tool="true" />
       <window_info anchor="bottom" id="Azure Activity Log" order="22" />
+      <window_info anchor="bottom" id="Database Console" order="23" weight="0.45115453" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -431,196 +412,389 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.3.3.RELEASE/401662e0d032ae64a3947be7b77a674f0c0c98d4/spring-security-web-5.3.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="returnType.getParameterType()" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/bgx/gradle-5.6.4-bin/lib/gradle-core-api-5.6.4.jar!/org/gradle/api/plugins/ExtensionAware.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="-299">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/bgx/gradle-5.6.4-bin/lib/gradle-core-api-5.6.4.jar!/org/gradle/api/artifacts/dsl/DependencyHandler.class">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="396">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.8.RELEASE/1dd9a60d62500c015c65d63bf78facd89c65f091/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyMethodProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-web/5.2.8.RELEASE/f1838e267cf7ef5cf588f9b3ec60cc7314278afb/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/web/method/support/HandlerMethodReturnValueHandlerComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.3.3.RELEASE/4c9b78b018658ea27378f307a673fb28be47e5bc/spring-security-config-5.3.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/authentication/configuration/AuthenticationConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="237" column="30" selection-start-line="237" selection-start-column="30" selection-end-line="237" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.3.3.RELEASE/728e13ebf53a8025457f27dd0bd48f4562927b5e/spring-security-core-5.3.3.RELEASE-sources.jar!/org/springframework/security/core/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.3.3.RELEASE/728e13ebf53a8025457f27dd0bd48f4562927b5e/spring-security-core-5.3.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.3.3.RELEASE/401662e0d032ae64a3947be7b77a674f0c0c98d4/spring-security-web-5.3.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/preauth/PreAuthenticatedAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.3.3.RELEASE/401662e0d032ae64a3947be7b77a674f0c0c98d4/spring-security-web-5.3.3.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="94" column="54" lean-forward="true" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="27" />
           <folding>
-            <element signature="e#0#2725#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/TestApplication.java" />
-    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-context/5.2.8.RELEASE/fd76688507b395caaec8e904aeef9738be3d61a8/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/stereotype/Repository.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="28" />
+        <state relative-caret-position="100">
+          <caret line="4396" column="29" selection-start-line="4396" selection-start-column="29" selection-end-line="4396" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/2.0.4/79aa856ff673bc8c0b00c2d599f14a17d300d034/mybatis-spring-2.0.4-sources.jar!/org/mybatis/spring/annotation/MapperScan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="124" column="45" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/entity.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f9e576db-af18-40f4-ac4b-31ab3d51343a/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/config/MybatisPlusConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/config/PasswordEncoderConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/component/jwt/JwtTokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="684">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5b53ccf0-5e24-4efe-b417-c4567869dd41/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6a2160b1-f7e7-4e4c-9598-2322129373b4/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/da5a4a6b-5c1a-490a-969f-1e049e48df63/console.sql">
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.3.3.RELEASE/728e13ebf53a8025457f27dd0bd48f4562927b5e/spring-security-core-5.3.3.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/685f2786-28ce-4933-bba7-faf3cae25e32/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-extension/3.3.2/2be74884e686e4de9a4bc5bca1257876ddb013d5/mybatis-plus-extension-3.3.2-sources.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="24" />
+        <state relative-caret-position="100">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-core/3.3.2/f823829f7c611d8f13728f1111f36b62735f667d/mybatis-plus-core-3.3.2-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.3.3.RELEASE/728e13ebf53a8025457f27dd0bd48f4562927b5e/spring-security-core-5.3.3.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="174" column="22" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="22" />
+        <state relative-caret-position="123">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-core/3.3.2/f823829f7c611d8f13728f1111f36b62735f667d/mybatis-plus-core-3.3.2-sources.jar!/com/baomidou/mybatisplus/core/conditions/interfaces/Compare.java">
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.3.3.RELEASE/4c9b78b018658ea27378f307a673fb28be47e5bc/spring-security-config-5.3.3.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="94" column="43" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="43" />
+        <state relative-caret-position="74">
+          <caret line="511" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.3.3.RELEASE/728e13ebf53a8025457f27dd0bd48f4562927b5e/spring-security-core-5.3.3.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-781">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-web/5.2.8.RELEASE/f1838e267cf7ef5cf588f9b3ec60cc7314278afb/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/web/bind/annotation/ResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/component/exception/TestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.8.RELEASE/1dd9a60d62500c015c65d63bf78facd89c65f091/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.8.RELEASE/1dd9a60d62500c015c65d63bf78facd89c65f091/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.8.RELEASE/1dd9a60d62500c015c65d63bf78facd89c65f091/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="952" selection-start-line="952" selection-end-line="952" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.8.RELEASE/1dd9a60d62500c015c65d63bf78facd89c65f091/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="884" selection-start-line="884" selection-end-line="884" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/io.undertow/undertow-servlet/2.1.3.Final/f1353a6dfb8d216d92b77962af1de9028ec7d5de/undertow-servlet-2.1.3.Final-sources.jar!/io/undertow/servlet/handlers/ServletHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/component/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.11.1/d004e9fc776bb13c7a9ef552df383994d8dd8be5/jackson-databind-2.11.1-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="3622" column="36" selection-start-line="3622" selection-start-column="18" selection-end-line="3622" selection-end-column="36" />
+          <folding>
+            <element signature="e#149562#149563#0" expanded="true" />
+            <element signature="e#149633#149634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.8.RELEASE/1dd9a60d62500c015c65d63bf78facd89c65f091/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyAdviceChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/component/response/ResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="33" column="48" lean-forward="true" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-aop/5.2.8.RELEASE/470c0139ecafe0d62dd5b6758edda245f0c744fd/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-tx/5.2.8.RELEASE/e26ca55b0938b51f7f042d63957d54b7b4f293d0/spring-tx-5.2.8.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="375" selection-start-line="375" selection-end-line="375" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-aop/5.2.8.RELEASE/470c0139ecafe0d62dd5b6758edda245f0c744fd/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="748" selection-start-line="748" selection-end-line="748" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-core/5.2.8.RELEASE/201078aaf5a068b7766d561490354eaf5d8d1574/spring-core-5.2.8.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-web/5.2.8.RELEASE/f1838e267cf7ef5cf588f9b3ec60cc7314278afb/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.8.RELEASE/1dd9a60d62500c015c65d63bf78facd89c65f091/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="885" selection-start-line="885" selection-end-line="885" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/util/SecurityContextHolderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/component/jwt/JwtTokenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/common/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/controller/testController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="266">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.3.3.RELEASE/728e13ebf53a8025457f27dd0bd48f4562927b5e/spring-security-core-5.3.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#912#918#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
-          <folding>
-            <element signature="n#Properties#0;n#configuration#0;n#!!top" />
-            <element signature="n#appenders#0;n#configuration#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/org.jboss.threads/jboss-threads/3.1.0.Final/3258d2f6575446ff826316130bc7ab43488335e2/jboss-threads-3.1.0.Final-sources.jar!/org/jboss/threads/ContextClassLoaderSavingRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-pro.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/bgx/gradle-5.6.4-bin/caches/modules-2/files-2.1/io.springfox/springfox-spi/3.0.0/83317b7ca4d9f36fd1f37ab59e85907434675c51/springfox-spi-3.0.0-sources.jar!/springfox/documentation/spi/DocumentationType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="e#95#236#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <caret line="93" column="12" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -629,67 +803,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/TestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/controller/testController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="190">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/Reslut.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/vo/CUserDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="532">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/common/enums/ErrorEnum.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/function/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="382">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/component/exception/GlobalExceptionHandler.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="16">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxondata/test/util/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="21" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
           </folding>
         </state>
       </provider>

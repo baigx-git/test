@@ -15,13 +15,16 @@ import java.time.LocalDateTime;
 public class User {
 
     @ApiModelProperty(value = "id")
-    private long id;
+    private String id;
 
     @ApiModelProperty(value = "姓名")
-    private String name;
+    private String username;
 
     @ApiModelProperty(value = "密码")
     private String password;
+
+    @ApiModelProperty(value = "手机号")
+    private String mobile;
 
     @ApiModelProperty(value = "性别")
     private String sex;
