@@ -13,29 +13,6 @@ spring:
     password: root
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
 
-
-#swagger:
-#  # 是否启用swagger，默认：true
-#  enabled: true
-#  # 标题
-#  title: swagger-demo API 管理
-#  # 描述
-#  description: 这里是 swagger-demo API 管理的描述信息
-#  # 版本
-#  version: 0.0.1-SNAPSHOT
-#  # 许可证
-#  license: MIT License
-#  terms-of-service-url: http://10.11.4.210:8080/
-#  contact:
-#    # 维护人
-#    name: bgx
-#    # 维护人URL
-#    #url:
-#    # 维护人URL
-#    email: 723241017@qq.com
-#  # swagger扫描的基础包，默认：全扫描
-#  base-package: com.luxondata.test
-#  # 需要处理的基础URL规则，默认：/**
-#  base-path: /**
-#  # 需要排除的URL规则，默认：空
-#  #exclude-path: /error
+netty:
+  server:
+    port: 8088

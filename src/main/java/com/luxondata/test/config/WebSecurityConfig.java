@@ -58,6 +58,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("classpath:/META-INF/resources/webjars/").permitAll()
                 .antMatchers("/test/**").permitAll()
                 // 允许匿名用户访问
+                .antMatchers(HttpMethod.GET, "/ws").permitAll()
                 .antMatchers(HttpMethod.POST, "/authentication/**").permitAll()
                 .antMatchers(HttpMethod.POST).authenticated()
                 .antMatchers(HttpMethod.PUT).authenticated()
